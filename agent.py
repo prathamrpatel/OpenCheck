@@ -36,7 +36,7 @@ async def config():
     mcp_tools = await mcp_server_tools(server_params=params)
 
     model = OpenAIChatCompletionClient(
-        model='gpt-4o',
+        model='gpt-4o', # Change the AI model here
         api_key=open('api_openai.txt').read().strip()
     )
 

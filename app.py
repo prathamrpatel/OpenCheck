@@ -1,11 +1,10 @@
 import streamlit as st
 from agent import orchestrate, config
 from autogen_agentchat.base import TaskResult
-from autogen_agentchat.messages import TextMessage
 from autogen_agentchat.messages import ToolCallExecutionEvent, ToolCallRequestEvent
 import asyncio
 
-st.title("📰 News Fact-Checking Agent 🤖✅")
+st.title("📰 News Fact-Checking Agent ✅")
 
 chat = st.container()
 task = st.chat_input("Enter your question about news or facts:")

@@ -1,3 +1,4 @@
 .venv
 api_openai.txt
 api_tavily.txt
+__pycache__
